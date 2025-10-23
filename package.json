@@ -1,17 +1,16 @@
 {
-  "name": "rohith-portfolia",
-  "private": true,
+  "name": "your-portfolio",
   "version": "0.0.0",
-  "type": "module",
-  "homepage": "https://Rohith451.github.io/Port/",
+  "homepage": "https://rohith451.github.io/Portfoilo/", 
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d dist" 
   },
+
   "dependencies": {
     "bundle": "^2.1.0",
     "bundler": "^0.8.0",
